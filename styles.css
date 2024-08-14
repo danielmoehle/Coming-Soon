@@ -1,0 +1,73 @@
+body{
+    background-color: hsl(0, 100%, 96%);
+}
+
+.main-box {
+    display: grid;
+    gap: 4rem;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    margin-left: 25vh;
+    padding: auto;
+}
+
+.logo {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.coming-soon1 {
+    font-size: 10vh;
+    margin-top: 8vh;
+    margin-bottom: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 50;
+    color: hsl(0, 36%, 70%);
+    letter-spacing: 3vh;
+}
+
+.coming-soon2 {
+    font-size: 10vh;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    letter-spacing: 3vh;
+}
+
+.details {
+    color: hsl(0, 36%, 70%);
+}
+
+.input {
+    border-radius: 5vh;
+    width: 60vh;
+    height: 5vh;
+    border: 1px solid rgb(163, 161, 161);
+    padding-left: 20px;
+}
+
+
+.submit {
+    width: 10vh;
+    height: 5.7vh;
+    border-radius: 5vh;
+    margin-left: -8vh;
+    padding-bottom: 3px;
+    background-color: hsl(0, 36%, 70%);
+    color: white;
+    border: none;
+    font-size: large;
+}
+
+.submit:hover {
+    background-color: hsl(0, 36%, 54%);
+}
+
+.img {
+    height: 579px;
+    width: 500px;
+    margin-left: 200px;
+    padding: 0;
+}
+    
